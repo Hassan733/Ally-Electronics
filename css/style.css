@@ -1,0 +1,327 @@
+/* body */
+/* div, header, footer, section, article, aside .card {
+    border: 1px solid rgb(158, 158, 158);
+} */
+/* Header */
+.img-40{
+    width: 40%;
+}    
+}
+#logo{
+   cursor: pointer;
+   width: 35%;
+
+}
+#header-links{
+    padding-top: .5rem;    
+}
+
+header nav ul li a:hover
+
+{
+    
+    background:  rgb(165, 198, 248);
+    border-radius: 50% 0 50% 0;
+    
+}
+#mymenu ul li a:hover{
+    color:rgb(247, 247, 247);
+}
+nav ul li  :hover{
+    color: rgb(231, 54, 247);
+
+}
+
+
+nav img:hover{
+    cursor:pointer;
+}
+/* body */
+.fa-star {
+    color: gold;
+}
+
+
+/* Slider */
+#slider{
+    height:50vh;
+    background-Size:100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+/* crousel images */
+.carousel-item{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+#carouselimg1{
+    background-image: url('../Images/sliders/1.jpg');
+}
+#carouselimg2{
+    background-image: url('../Images/sliders/2.jpg');
+}
+#carouselimg3{
+    background-image: url('../Images/sliders/3.jpg');
+}
+#carouselimg4{
+    background-image: url('../Images/sliders/4.jpg');
+}
+
+/* carousel cpation */
+.carousel-caption{
+    color: rgb(46, 13, 197);
+    font-weight: bold;
+}
+
+@media only screen and (max-width:768px) {
+    #slider,
+    #slider .carousel-inner,
+    .carousel-inner * {
+        height: 30vh;
+    }
+    #header-links {
+        padding-top: 0rem;
+    }
+}
+
+
+/* products */
+/* new arrivals*/
+#arrival {
+    background: blue;
+    color: white;
+    width:200px;
+    padding:5px;
+    font-size: 24px;
+    height: 40px;
+    border-radius: 0px 50px 0 0;
+}
+#arrivalrow{
+    margin-top: 30px;
+   
+}
+/* card in new arrials */
+
+.product-bottom .fas{
+color: gold;
+font-size: 10px;
+}
+.heading4, .heading5{
+    font-size: 15px;
+}
+/* sidemenu */
+#sideheading{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius:20px;
+    border: 2px solid blueviolet;
+}
+.payment{
+    margin-top: 5px;
+    border-radius: 8px;
+    border:2px black;
+    
+}
+#sidebar{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.hoverside:hover{
+    background-color:lightgrey;
+
+}
+/* rightside area */
+.discount{
+    
+    font-size: 25px;
+    border-radius: 80px;
+}
+.overlay{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    margin-left: 0;
+    top: 10%;
+    width: 70px;
+}
+.product:hover .overlay{
+opacity: 2;
+margin-left: 5%;
+transition: 0.5s;
+}
+.overlay .fa {
+    cursor: pointer;
+    background-color: grey;
+    color:whitesmoke;
+    height: 30px;
+    width:35px;
+    padding: 7px;
+    margin-top: 5px;
+}
+.overlay .btn-secondary{
+    background: transparent !important;
+    border: none;
+    
+}
+.contain{
+    height: 200px;
+    width: 250px;
+       
+}
+#pagination{
+    margin-top: 40px;
+}
+
+/* Footer */ 
+#footer{
+    background-color:grey;
+    color: white;
+}
+#footer-copyrights{
+    padding-top: 0.5rem;
+    border-left: 5px solid orangered;
+    margin-left: 5px;
+    margin-top: 5px;
+ font-size: 20px;
+}
+footer a{
+    color: white;
+}
+footer li a{
+    color: white;
+
+}
+footer li a:hover{
+    color: aqua;
+
+}
+#foot{
+    margin-left: 5px;
+    margin-top: 45px;
+}
+#socialmedia{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.socialimg{
+    border-radius: 60%;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+
+
+/* contact us form  */
+.contact{
+    text-transform: uppercase;
+
+}
+.contact-form{
+    width: 100%;
+    background:	#ADD8E6;
+    padding: 20px 30px;
+    border-radius: 10px;
+    
+}
+.label{
+   display: block;
+   padding-left: 0%;
+}
+ input , textarea{
+     width: 100%;
+     padding: 8px 10px;
+     color: blue;
+ }
+.map{
+    background:#ADD8E6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+     
+} 
+.google{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+#contactstyle{
+    background: blue;
+    color: white;
+    width:200px;
+    padding:5px;
+    font-size: 24px;
+    height: 40px;
+    border-radius: 0px 50px 0 0;
+}
+.contact{
+    margin: 20px 10px 20px 10px;
+    background-color: grey;
+    color: white;
+    font-size: 2em;
+    border-radius: 100px;
+}
+.contact:hover{
+    background: #00BFFF;
+    color: white;
+    
+}
+/* about us sectio  */
+.team{
+    
+    text-align: center;
+    background-color : #34495e;
+    padding: 60px;
+    margin: 10px 10px 10px 10px;
+    width: 100%;
+    color: white;
+}
+.border{
+    display: block;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 80px;
+    margin: auto;
+}
+.aboutpics a{
+    display: inline-block;
+    margin: 10px 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    
+}
+.aboutpics a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.aboutpics a:hover >img{
+    filter: none;
+}
+#aboutname{
+    margin-left: 14%;
+}
+/* my cart */
+
+
+
+.layer1{
+    /* border:1px solid black; */
+width:100%;
+height:75vh;
+    background-image:url('../images/cart/1.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:100% 100%;
+}
+
+.layer1:hover{
+    background-image:url('../images/cart/coming.png');
+}
